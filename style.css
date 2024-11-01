@@ -1,0 +1,142 @@
+.rm_wrap{
+    width:740px;
+}
+
+.rm_section{
+    border:1px solid #ddd;
+    border-bottom:0;
+    background:#f9f9f9;
+    border-width: 1px 1px 0px;
+    border-top-left-radius: 6px 6px;
+    border-top-right-radius: 6px 6px;
+}
+
+.rm_opts label{
+    font-size:12px;
+    font-weight:700;
+    width:200px;
+    display:block;
+    float:left;
+}
+.rm_input {
+    padding:30px 10px;
+    border-bottom:1px solid #ddd;
+    border-top:1px solid #fff;
+}
+.rm_opts small{
+    display:block;
+    float:right;
+    width:200px;
+    color:#999;
+    font-size:10px
+}
+.rm_opts input[type="text"], .rm_opts select{
+    width:280px;
+    font-size:12px;
+    padding:4px;
+    color:#333;
+    line-height:1em;
+    background:#f3f3f3;
+}
+.rm_input input:focus, .rm_input textarea:focus{
+    background:#fff;
+}
+.rm_input textarea{
+    width:280px;
+    height:175px;
+    font-size:12px;
+    padding:4px;
+    color:#333;
+    line-height:1.5em;
+    background:#f3f3f3;
+}
+.rm_title h3 {
+    font-size:1em;
+    margin:0;
+    font-weight:bold;
+    color:#21759B;
+    float:left;
+    width:80%;
+    padding:14px 4px 14px 10px;
+}
+
+.rm_title{
+    background:#f1f1f1;
+    padding:0;
+    border-bottom:1px solid #ddd;
+    border-top-left-radius: 6px 6px;
+    border-top-right-radius: 6px 6px;
+}
+
+.rm_description{
+    border-bottom:1px solid #ddd;
+    background:#eee;
+    padding:10px;
+    font-size:10px;
+}
+
+.rm_title h3 img.inactive{
+    margin:-8px 10px 0 2px;
+    width:32px;
+    height:32px;
+    float:left;
+    -moz-border-radius:6px;
+    border:1px solid #ccc;
+}
+
+.rm_title h3:hover img{
+    border:1px solid #999;
+}
+
+.rm_title span.submit{
+    display:block;
+    float:right;
+    margin:0;
+    padding:0;
+    width:15%;
+    padding:14px 0;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.rm_table th, .rm_table td{
+    border:1px solid #bbb;
+    padding:10px;
+    text-align:center;
+}
+
+.rm_table th, .rm_table td.feature{
+    border-color:#888;
+}
+
+/* new */
+
+#message {
+    width: 780px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap div.infoMessage {
+    margin: 5px 0 15px;
+    padding: 11px 15px;
+    background-color: #fff;
+    border-left: 4px solid #0DBEDC;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.wrap.rm_wrap {
+    width: 90%;
+}
+.wrap.rm_wrap .rm_opts {
+    float: left;
+    width: 780px;
+}
+.wrap.rm_wrap .tb_sidebar {
+    float: left;
+    width: 200px;
+    min-height: 400px;
+    margin-left: 40px;
+}
